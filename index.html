@@ -11,30 +11,51 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header__menu">
-        <ul class="header__links-list">
-          <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a class="header__link header__link_active" href="#0">главная</a>
+      <nav class="header-menu">
+        <ul class="header-links-list">
+          <li class="header-links-list-item header-links-list-item-no-bullit">
+            <a class="header-link header-link-active" href="#0">главная</a>
           </li>
-          <li class="header__links-list-item">
-            <a class="header__link" href="#lots">посмотреть лоты</a>
+          <li class="header-links-list-item">
+            <a class="header-link" href="#lots">посмотреть лоты</a>
           </li>
-          <li class="header__links-list-item">
-            <a class="header__link" href="#about">об аукционе</a>
+          <li class="header-links-list-item">
+            <a class="header-link" href="#about">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a class="header__logo">
-        <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип проекта Оно тебе надо">
+      <a class="header-logo">
+        <img class="header-logo-image" src="./images/logo-black.svg" alt="Логотип проекта Оно тебе надо">
       </a>
-      <address class="address header__address">
-        <a class="address__link" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="address__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p class="address__text">наб. Принсенграхт 263-265, Амстердам</p>
+      <address class="address header-address">
+        <a class="address-link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="address-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="address-text">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
     </header>
     <main>
-      <section class="cover"></section>
+      <section class="cover">
+        <!-- Слой затемнения -->
+        <div class="overlay"></div>
+        
+        <h1 class="cover_-title">
+          <span class="aligned-text aligned-text_left">
+            о<span class="letter-spacing-extended">но</span>
+          </span>
+          <span class="aligned-text aligned-text_center">
+            те<span class="letter-spacing-extended">бе</span>
+          </span>
+          <span class="aligned-text aligned-text_right">
+            н<span class="letter-spacing-extended">ад</span><span class="no-letter-spacing">о</span>
+          </span>
+        </h1>
+
+        <!-- Блок с описанием и кнопкой -->
+        <div class="cover_-description">
+          <p class="cover-description-text">Аукцион вещей, в которые никто не верил</p>
+          <button class="bet-button" type="button">Сделать ставку</button>
+        </div>
+      </section>
       <section class="lots"></section>
       <section class="about"></section>
     </main>
