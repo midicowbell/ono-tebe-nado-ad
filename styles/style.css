@@ -46,7 +46,6 @@ html {
 }
 
 /* Запрещает тексту переноситься на вторую строку! */
-
 .header__links-list-item {
     white-space: nowrap;
 }
@@ -168,7 +167,7 @@ html {
 }
 
 .lots {
-    padding: 180px 50px 0;
+    padding: 180px 24px 0;
 }
 
 .lots__heading {
@@ -190,7 +189,7 @@ html {
 }
 
 .lots__card-list-item {
-    flex: 1 1 334px;
+    width: 334px;
     min-height: 450px;
 }
 
@@ -259,7 +258,7 @@ html {
     display: grid;
     grid-template-columns: 334px 1fr;
     gap: 25px;
-    padding: 180px 50px 0;
+    padding: 180px 24px 0;
 }
 
 .about__logo {
